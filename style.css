@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    border: 1px solid gray;
+    display: inline-block;
+    line-height: 100px;
+}
+.o{
+    position: relative;
+}
+.o::after{
+    content: "\1F480";
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.x{
+    position: relative;
+}
+.x::after{
+    content: "\1F987";
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
